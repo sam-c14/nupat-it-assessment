@@ -9,7 +9,7 @@ const BenefitsCard = () => {
       <div className="w-2/5">
         <header>
           <div className="w-1/2 my-2 flex">
-            <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-1/2 section-head-bg">
+            <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-20 section-head-bg">
               Why Us
             </h5>
           </div>

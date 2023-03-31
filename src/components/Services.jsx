@@ -9,7 +9,7 @@ const Services = () => {
     <div className="f-family-rubik py-20 flex">
       <header className="w-2/5 px-10">
         <div className="w-8/12 my-2 flex pl-24">
-          <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-1/2 section-head-bg">
+          <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-28 section-head-bg">
             What we do
           </h5>
         </div>

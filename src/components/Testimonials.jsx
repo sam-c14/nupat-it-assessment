@@ -13,7 +13,7 @@ const Testimonials = () => {
         <header>
           <section>
             <div className="w-1/5 my-2 flex">
-              <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-1/2 section-head-bg">
+              <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-28 section-head-bg">
                 Testimonials
               </h5>
             </div>

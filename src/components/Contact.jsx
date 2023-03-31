@@ -10,12 +10,12 @@ import Sponsor4 from "../assests/iimages/Sponsor4.svg";
 const Contact = () => {
   const sponsors = [Sponsor1, Sponsor2, Sponsor3, Sponsor4];
   return (
-    <div className="h-screen mb-4 primary-1 flex justify-center items-center  f-family-rubik text-white">
+    <div className="vh-120 mb-4 primary-1 flex justify-center items-center  f-family-rubik text-white">
       <div className="w-9/12 flex flex-wrap">
         <div className="w-1/2">
           <header>
             <div className="w-1/2 my-2 flex">
-              <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-1/2 section-head-bg">
+              <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-20 section-head-bg">
                 Contact
               </h5>
             </div>
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
           </header>
           <main>
-            <p className="f-family-krub font-medium leading-6">
+            <p className="f-family-krub mb-4 font-medium leading-6">
               Leverage agile frameworks to provide a robust synopsis for
               strategy foster collaborative thinking to further the overall
               value proposition.
@@ -35,7 +35,7 @@ const Contact = () => {
           <footer>
             <div>
               <ul className="">
-                <li className="flex mb-4 items-center gap-3 text-white">
+                <li className="flex mb-6 items-center gap-3 text-white">
                   <div>
                     <img src={Message} alt="message" />
                   </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                     <p>contact@logistics.com</p>
                   </div>
                 </li>
-                <li className="flex mb-4 items-center gap-3 text-white">
+                <li className="flex mb-6 items-center gap-3 text-white">
                   <div>
                     <img src={Call} alt="call" />
                   </div>
@@ -53,7 +53,7 @@ const Contact = () => {
                     <p>(00) 112 365 489</p>
                   </div>
                 </li>
-                <li className="flex mb-4 items-center gap-3 text-white">
+                <li className="flex mb-6 items-center gap-3 text-white">
                   <div>
                     <img src={Clock} alt="clock" />
                   </div>
@@ -115,7 +115,7 @@ const Contact = () => {
         </div>
         <div className="w-full mt-10 flex">
           {sponsors.map((sponsor) => (
-            <div>
+            <div key={sponsor}>
               <img src={sponsor} alt="sponsor" />
             </div>
           ))}

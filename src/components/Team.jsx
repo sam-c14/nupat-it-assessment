@@ -68,11 +68,11 @@ const Team = () => {
     },
   ];
   return (
-    <div className="w-full flex f-family-rubik justify-center mb-4">
+    <div className="w-full flex f-family-rubik justify-center mb-10">
       <div className="w-9/12">
         <header className="flex flex-wrap justify-center">
-          <div className="w-10/12 flex justify-center my-2">
-            <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-1/6 section-head-bg">
+          <div className="w-4/5 flex justify-center my-2">
+            <h5 className="font-normal border-l-4 yellow-border-color pl-2 py-1 w-36 section-head-bg">
               The Transporters
             </h5>
           </div>
@@ -85,10 +85,13 @@ const Team = () => {
         <main className="grid gap-x-10 grid-cols-3">
           {members.map((member) => (
             <div key={member.name}>
-              <div>
-                <img src={member.src} alt="member" />
+              <div className="bg-yellow-300">
+                <img src={member.src} className="w-full" alt="member" />
               </div>
-              <div className="primary-1 px-10 text-white py-7 relative">
+              <div
+                style={{ width: "100%" }}
+                className="primary-1 px-10 text-white py-7 relative"
+              >
                 <div className="absolute yellow-bg-gradient right-0 -top-7 flex gap-5 py-4 px-5">
                   {member.socialLink.map((link) => (
                     <a className="text-2xl section-head-color" href={link.link}>

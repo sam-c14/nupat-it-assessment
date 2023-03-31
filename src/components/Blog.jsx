@@ -84,7 +84,7 @@ const Blog = () => {
                   <h1 className="section-head-color font-semibold pl-4 text-3xl">
                     {info.day}
                   </h1>
-                  <p className="f-family-krub primary-2 text-center font-normal">
+                  <p className="f-family-krub secondary-2 text-center font-normal">
                     {info.month}
                   </p>
                 </div>
@@ -112,7 +112,7 @@ const Blog = () => {
       </main>
       <footer>
         <div className="flex justify-center">
-          <button className="primary-1 px-11 py-6 f-family-krub font-semibold relative text-white border-white">
+          <button className="primary-1 px-14 py-5 f-family-krub font-semibold relative text-white border-white">
             More Blog
           </button>
         </div>

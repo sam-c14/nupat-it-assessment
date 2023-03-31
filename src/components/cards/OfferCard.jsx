@@ -44,7 +44,7 @@ const OfferCard = () => {
         <div className="w-2/5 pl-10">
           <header>
             <div className="w-1/2 my-2 flex">
-              <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-1/2 section-head-bg">
+              <h5 className="font-normal border-l-4 yellow-border-color pl-2 w-28 section-head-bg">
                 Why Choose
               </h5>
             </div>
@@ -67,7 +67,7 @@ const OfferCard = () => {
           </main>
           <footer className="grid grid-cols-2 gap-y-5">
             {footerIcons.map((icon) => (
-              <div className="flex items-center gap-2">
+              <div key={icon.text} className="flex items-center gap-2">
                 <div className="icon-circle yellow-bg-gradient flex justify-center items-center p-1 rounded-full">
                   <img src={icon.src} alt="box" />
                 </div>

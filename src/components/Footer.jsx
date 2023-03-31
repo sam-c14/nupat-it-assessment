@@ -35,26 +35,26 @@ const Footer = () => {
             </p>
           </section>
           <section>
-            <ul className="mt-5 text-white">
-              <li className="flex mb-3 items-center gap-3 text-white">
+            <div className="mt-5 w-full text-white">
+              <div className="flex mb-4 items-center gap-3 text-white">
                 <div>
-                  <img src={Message} alt="message" />
+                  <img src={Message} className="w-full" alt="message" />
                 </div>
                 <div>
                   <p>Email</p>
-                  <p>contact@logistics.com</p>
+                  <p className="w-40">contact@logistics.com</p>
                 </div>
-              </li>
-              <li className="flex mb-3 items-center gap-3 text-white">
+              </div>
+              <div className="flex mb-4 items-center gap-3 text-white">
                 <div>
-                  <img src={Call} alt="call" />
+                  <img src={Call} className="w-full" alt="message" />
                 </div>
                 <div>
                   <p>Call</p>
-                  <p>(00) 112 365 489</p>
+                  <p className="w-40">(00) 112 365 489</p>
                 </div>
-              </li>
-            </ul>
+              </div>
+            </div>
           </section>
         </div>
         <div className="w-3/5 f-family-krub">
@@ -107,7 +107,7 @@ const Footer = () => {
                   className="py-4 text-xl w-full bg-transparent border rounded-sm f-family-league-spartan outline-none pl-5 mb-5"
                 />
                 <div className="flex gap-x-8 items-center">
-                  <button className="yellow-bg-gradient px-11 py-3.5 f-family-krub font-semibold relative text-black border-white">
+                  <button className="yellow-bg-gradient px-11 py-3.5 f-family-krub font-semibold relative text-black border-white whitespace-nowrap">
                     Send Now
                   </button>
                   <div className="flex gap-4 text-2xl text-white">
@@ -122,15 +122,15 @@ const Footer = () => {
         </div>
       </div>
       <hr style={{ height: "0", border: "0.5px solid #8388a7" }} />
-      <div className="py-5 primary-1 px-52">
+      <div className="py-5 primary-1 px-32">
         <div className="flex text-white justify-between">
-          <div className="w-1/2">
+          <div className="flex w-2/3 pl-10">
             <p>
               Copyright © TransitFlow | Designed by VictorFlow - Powered by
               Webflow.
             </p>
           </div>
-          <div className="1/2 pr-44">
+          <div className="w-1/2">
             <ul className="flex secondary-2 gap-x-5">
               <li>
                 <a href="#">Style Guide</a>

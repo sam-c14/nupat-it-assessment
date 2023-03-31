@@ -51,13 +51,13 @@
   line-height: 71px;
 }
 .border-skew {
-  transition: all 0.3s;
+  transition: all 0.8s;
 }
 .border-skew::after {
   content: "";
   background-color: white;
-  width: 36px;
-  height: 36px;
+  width: 35px;
+  height: 35px;
   bottom: 0%;
   right: 0%;
   position: absolute;
@@ -85,6 +85,9 @@
 }
 .vh-60 {
   height: 60vh;
+}
+.vh-120 {
+  height: 120vh;
 }
 .slider-card {
   height: 400px;

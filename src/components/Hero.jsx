@@ -2,10 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero-bg .f-family-rubik  w-full flex items-center">
+    <div className="hero-bg pt-5 f-family-rubik w-full flex items-center">
       <section className="px-10 w-2/5">
         <header>
-          <div className="border-l-8 w-2/4 mb-2 yellow-border-color bg-5-blue text-white py-1 px-2 font-normal">
+          <div className="border-l-8 w-72 mb-2 yellow-border-color bg-5-blue text-white py-1 px-2 font-normal">
             <p>Logistics & Supply Chain Solutions</p>
           </div>
         </header>
