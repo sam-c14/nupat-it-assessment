@@ -68,7 +68,7 @@ const Blog = () => {
       </header>
       <main className="flex my-10 flex-wrap justify-center">
         {news.map((info) => (
-          <div className="w-3/5">
+          <div key={info} className="w-3/5">
             <div className="border border-l-0 border-r-0 py-7 flex">
               <div className="border-r-2 pr-2 w-3/5 flex gap-10">
                 <div

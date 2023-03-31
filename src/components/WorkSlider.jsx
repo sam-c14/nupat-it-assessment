@@ -39,6 +39,7 @@ const WorkSlider = () => {
         <section className="grid gap-x-2 w-full grid-cols-5">
           {cardInfo.map((info) => (
             <div
+              key={info.transport}
               style={{ background: `url(${info.src}) no-repeat center/cover` }}
               className="slider-card pl-5 flex items-end pb-2"
             >
